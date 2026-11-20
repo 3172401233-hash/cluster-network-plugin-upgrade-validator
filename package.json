@@ -1,0 +1,14 @@
+{
+  "name": "cluster-network-plugin-upgrade-validator",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Validates CNI plugin rolling upgrades: address pools, route convergence, policy semantics, batches and rollback.",
+  "engines": {
+    "node": ">=24.16.0"
+  },
+  "scripts": {
+    "test": "node --test",
+    "validate": "node bin/validate.js"
+  }
+}
